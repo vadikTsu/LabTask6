@@ -11,9 +11,9 @@ namespace ConsoleApplication1
         {
             Team team = new Team("Awesome Team");
 
-            Developer dev1 = new Developer("John");
-            Developer dev2 = new Developer("Mary");
-            Manager manager1 = new Manager("Peter");
+            Worker dev1 = new Developer("John");
+            Worker dev2 = new Developer("Mary");
+            Worker manager1 = new Manager("Peter");
 
             dev1.FillWorkDay();
             dev2.FillWorkDay();
